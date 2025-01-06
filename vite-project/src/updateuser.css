@@ -1,0 +1,87 @@
+/* Container for the Update User page */
+.update-user-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f6f9;
+    padding: 20px;
+  }
+  
+  /* Form container */
+  .update-user-form {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title of the page */
+  .update-user-form h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Label styles */
+  .update-user-form .form-label {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Input fields styling */
+  .update-user-form .form-control {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  /* Focus effect on input fields */
+  .update-user-form .form-control:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+  }
+  
+  /* Button styling */
+  .update-user-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect on button */
+  .update-user-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive styles for smaller devices */
+  @media (max-width: 768px) {
+    .update-user-form {
+      padding: 20px;
+    }
+  
+    .update-user-form h2 {
+      font-size: 1.8rem;
+    }
+  
+    .update-user-form .form-control {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  
+    .update-user-form button {
+      font-size: 0.9rem;
+    }
+  }
+  

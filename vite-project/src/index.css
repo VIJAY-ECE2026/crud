@@ -1,0 +1,17 @@
+/* Updated button hover effect */
+.btn-edit:hover, .btn-delete:hover, .btn-create:hover {
+  transform: scale(1.05);  /* Subtle zoom effect */
+}
+
+/* Prevent text overflow in table cells */
+.user-table td, .user-table th {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Empty state styling for the table */
+.user-table tbody {
+  text-align: center;
+  font-style: italic;
+  color: #777;
+}
